@@ -8,20 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		5152A75C20963F88001AF884 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5152A75B20963F88001AF884 /* AppDelegate.swift */; };
-		5152A75E20963F89001AF884 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5152A75D20963F89001AF884 /* ViewController.swift */; };
+		5152A75E20963F89001AF884 /* CourseListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5152A75D20963F89001AF884 /* CourseListViewController.swift */; };
 		5152A76120963F89001AF884 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5152A75F20963F89001AF884 /* Main.storyboard */; };
 		5152A76320963F8B001AF884 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5152A76220963F8B001AF884 /* Assets.xcassets */; };
 		5152A76620963F8B001AF884 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5152A76420963F8B001AF884 /* LaunchScreen.storyboard */; };
+		5152A76E20965321001AF884 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5152A76D20965321001AF884 /* Course.swift */; };
+		5152A77020965998001AF884 /* CourseDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5152A76F20965998001AF884 /* CourseDetailViewController.swift */; };
+		5152A7722096611F001AF884 /* UIView+addBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5152A7712096611F001AF884 /* UIView+addBorder.swift */; };
+		515D861A2096D8E000895376 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 515D86192096D8DF00895376 /* GoogleService-Info.plist */; };
+		515D861C2096F2D400895376 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515D861B2096F2D400895376 /* Photo.swift */; };
+		515D861E2096F47400895376 /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515D861D2096F47400895376 /* Photos.swift */; };
+		515D86202096F66300895376 /* CoursePhotosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515D861F2096F66300895376 /* CoursePhotosCollectionViewCell.swift */; };
+		D597E82287638D6208F83366 /* Pods_May_The_Course_Be_With_You.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C194CA578C56B56ED743825 /* Pods_May_The_Course_Be_With_You.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C194CA578C56B56ED743825 /* Pods_May_The_Course_Be_With_You.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_May_The_Course_Be_With_You.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5152A75820963F88001AF884 /* May The Course Be With You.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "May The Course Be With You.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5152A75B20963F88001AF884 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5152A75D20963F89001AF884 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5152A75D20963F89001AF884 /* CourseListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseListViewController.swift; sourceTree = "<group>"; };
 		5152A76020963F89001AF884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5152A76220963F8B001AF884 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5152A76520963F8B001AF884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5152A76720963F8B001AF884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5152A76D20965321001AF884 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		5152A76F20965998001AF884 /* CourseDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailViewController.swift; sourceTree = "<group>"; };
+		5152A7712096611F001AF884 /* UIView+addBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+addBorder.swift"; sourceTree = "<group>"; };
+		515D86192096D8DF00895376 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		515D861B2096F2D400895376 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		515D861D2096F47400895376 /* Photos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
+		515D861F2096F66300895376 /* CoursePhotosCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursePhotosCollectionViewCell.swift; sourceTree = "<group>"; };
+		77E25692C19AA017937237C2 /* Pods-May The Course Be With You.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-May The Course Be With You.debug.xcconfig"; path = "Pods/Target Support Files/Pods-May The Course Be With You/Pods-May The Course Be With You.debug.xcconfig"; sourceTree = "<group>"; };
+		8B869F40CC1C634B6FB9AB6C /* Pods-May The Course Be With You.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-May The Course Be With You.release.xcconfig"; path = "Pods/Target Support Files/Pods-May The Course Be With You/Pods-May The Course Be With You.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D597E82287638D6208F83366 /* Pods_May_The_Course_Be_With_You.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42C2F23DA283AC9DA9CB2EA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C194CA578C56B56ED743825 /* Pods_May_The_Course_Be_With_You.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49554C91DEBF8F352CEDFF1E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77E25692C19AA017937237C2 /* Pods-May The Course Be With You.debug.xcconfig */,
+				8B869F40CC1C634B6FB9AB6C /* Pods-May The Course Be With You.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5152A74F20963F88001AF884 = {
 			isa = PBXGroup;
 			children = (
 				5152A75A20963F88001AF884 /* May The Course Be With You */,
 				5152A75920963F88001AF884 /* Products */,
+				49554C91DEBF8F352CEDFF1E /* Pods */,
+				42C2F23DA283AC9DA9CB2EA0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,11 +93,18 @@
 			isa = PBXGroup;
 			children = (
 				5152A75B20963F88001AF884 /* AppDelegate.swift */,
-				5152A75D20963F89001AF884 /* ViewController.swift */,
+				5152A76D20965321001AF884 /* Course.swift */,
+				515D861B2096F2D400895376 /* Photo.swift */,
+				515D861D2096F47400895376 /* Photos.swift */,
+				5152A75D20963F89001AF884 /* CourseListViewController.swift */,
+				5152A76F20965998001AF884 /* CourseDetailViewController.swift */,
+				515D861F2096F66300895376 /* CoursePhotosCollectionViewCell.swift */,
 				5152A75F20963F89001AF884 /* Main.storyboard */,
+				5152A7712096611F001AF884 /* UIView+addBorder.swift */,
 				5152A76220963F8B001AF884 /* Assets.xcassets */,
 				5152A76420963F8B001AF884 /* LaunchScreen.storyboard */,
 				5152A76720963F8B001AF884 /* Info.plist */,
+				515D86192096D8DF00895376 /* GoogleService-Info.plist */,
 			);
 			path = "May The Course Be With You";
 			sourceTree = "<group>";
@@ -71,9 +116,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5152A76A20963F8B001AF884 /* Build configuration list for PBXNativeTarget "May The Course Be With You" */;
 			buildPhases = (
+				BF8CDDA996C00D185A8FBE15 /* [CP] Check Pods Manifest.lock */,
 				5152A75420963F88001AF884 /* Sources */,
 				5152A75520963F88001AF884 /* Frameworks */,
 				5152A75620963F88001AF884 /* Resources */,
+				A0E7BA93F38822C0F13C82DE /* [CP] Embed Pods Frameworks */,
+				DBE94CA48FC7D44FF2453BCD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5152A76620963F8B001AF884 /* LaunchScreen.storyboard in Resources */,
+				515D861A2096D8E000895376 /* GoogleService-Info.plist in Resources */,
 				5152A76320963F8B001AF884 /* Assets.xcassets in Resources */,
 				5152A76120963F89001AF884 /* Main.storyboard in Resources */,
 			);
@@ -130,13 +179,128 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A0E7BA93F38822C0F13C82DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-May The Course Be With You/Pods-May The Course Be With You-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-May The Course Be With You/Pods-May The Course Be With You-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF8CDDA996C00D185A8FBE15 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-May The Course Be With You-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBE94CA48FC7D44FF2453BCD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-May The Course Be With You/Pods-May The Course Be With You-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseFacebookAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseGoogleAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebasePhoneAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseTwitterAuthUI.bundle",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseFacebookAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseGoogleAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebasePhoneAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseTwitterAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlacePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterShareExtensionUIResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-May The Course Be With You/Pods-May The Course Be With You-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5152A75420963F88001AF884 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5152A75E20963F89001AF884 /* ViewController.swift in Sources */,
+				515D861C2096F2D400895376 /* Photo.swift in Sources */,
+				5152A77020965998001AF884 /* CourseDetailViewController.swift in Sources */,
+				5152A76E20965321001AF884 /* Course.swift in Sources */,
+				5152A75E20963F89001AF884 /* CourseListViewController.swift in Sources */,
+				515D86202096F66300895376 /* CoursePhotosCollectionViewCell.swift in Sources */,
 				5152A75C20963F88001AF884 /* AppDelegate.swift in Sources */,
+				5152A7722096611F001AF884 /* UIView+addBorder.swift in Sources */,
+				515D861E2096F47400895376 /* Photos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +442,7 @@
 		};
 		5152A76B20963F8B001AF884 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77E25692C19AA017937237C2 /* Pods-May The Course Be With You.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +461,7 @@
 		};
 		5152A76C20963F8B001AF884 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B869F40CC1C634B6FB9AB6C /* Pods-May The Course Be With You.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
